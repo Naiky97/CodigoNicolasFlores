@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TraditionsActivity"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/tra"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/tra1"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:textColor="#ffffff"
+                android:fontFamily="cursive"/>
+
+
+            <ImageView
+                android:layout_width="336dp"
+                android:layout_height="242dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/virgen"
+                tools:layout_editor_absoluteX="95dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <ImageButton
+                android:id="@+id/btnA1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/audi"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="410dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawSelectorOnTop="true"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:longClickable="true"
+            android:scrollbars="vertical"
+            android:text="@string/tra2"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:fontFamily="cursive"
+            android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="243dp"
+                android:layout_height="185dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/batalla"
+                tools:layout_editor_absoluteX="95dp"
+                tools:layout_editor_absoluteY="116dp" />
+
+            <ImageButton
+                android:id="@+id/btnA2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/audi"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="410dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/tra3"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:fontFamily="cursive"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="286dp"
+                android:layout_height="195dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ferreria"
+                tools:layout_editor_absoluteX="95dp"
+                tools:layout_editor_absoluteY="116dp"/>
+
+            <ImageButton
+                android:id="@+id/btnA3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/audi"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="410dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

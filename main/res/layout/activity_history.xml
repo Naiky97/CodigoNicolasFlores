@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/History"
+                android:textColor="#FFFF00"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32sp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/ch"
+                android:textColor="#FFFF00"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="357dp"
+                android:layout_height="214dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/nico" />
+
+            <TextView
+               android:id="@+id/t_h1"
+                android:layout_gravity="center"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/h1"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="cursive"
+                android:textStyle="italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/t_h2"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/h2"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:fontFamily="cursive"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/t_h3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:drawSelectorOnTop="true"
+                android:ems="10"
+                android:gravity="center_vertical|center"
+                android:inputType="textMultiLine"
+                android:longClickable="true"
+                android:scrollbars="vertical"
+                android:text="@string/th3"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:typeface="serif"
+                android:fontFamily="cursive"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

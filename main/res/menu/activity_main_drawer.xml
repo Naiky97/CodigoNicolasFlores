@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galería" />
+        <item
+            android:id="@+id/nav_gast"
+            android:icon="@drawable/gastronomia"
+            android:title="Gastronomia" />
+        <item
+            android:id="@+id/nav_trad"
+            android:icon="@drawable/tradi"
+            android:title="Tradiciones" />
+        <item
+            android:id="@+id/nav_hist"
+            android:icon="@drawable/historia"
+            android:title="Historia" />
+
+        <item
+            android:id="@+id/nav_vid"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video" />
+    </group>
+
+
+</menu>

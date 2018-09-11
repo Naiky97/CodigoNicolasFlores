@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Conoce Nicolas Flores Hgo.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="Acerca_de">Aplicación Desarrollada Por:</string>
+    <string name="TheBets">Naiky Yunetsy Isidro Suarez</string>
+    <string name="Cred">Créditos:</string>
+    <string name="UTNG">Universidad Tecnológica del Norte de Guanajuato</string>
+    <string name="fot">Fotografías tomadas por:</string>
+    <string name="mdvi">Mariana Daneth Valera Isidro</string>
+    <string name="Ver">Versión 1.0</string>
+    <string name="History">Historia Nicolàs Flores, Hgo</string>
+    <string name="ch">Cuna del huapango</string>
+    <string name="h1">Al suceder el asesinato del C. Presidente de la República Mexicana, Don Francisco I. Madero, por órdenes del General Victoriano Huerta, imponiendo con este magnicidio una dictadura férrea en la cual se privó a la mayoría de la población hasta de sus elementales derechos que la ley les otorga, los hombres amantes de la justicia social se unen bajo las órdenes del C. Venustiano Carranza para volver a establecer el imperio de la razón, es así, como los habitantes de este pueblo y otras comunidades de este municipio, no podían dejar de contribuir aunque en pequeña escala con su esfuerzo y sacrificio a la reivindicación a esta noble causa, es entonces que por los meses de abril y mayo de 1913, pasa en el pueblo de Santa María Tepeji, el General Nicolás Flores del bando constitucionalista en plan de exploración informando a las autoridades y al pueblo de la necesidad de su ayuda para derrocar al mal gobierno, respondiendo con un total apoyo a la causa del constitucionalismo, el cual representa las más nobles aspiraciones del pueblo,a este pueblo que tanto se le había mancillado en su dignidad de hombres libres.</string>
+    <string name="h2">Por los meses de junio y julio del mismo año, hace nuevo contacto con las autoridades del pueblo de Santa María, para presentar combate con las fuerzas federales en caso necesario, a este efecto se construyeron por el mes de agosto en las laderas de la barranca del Xhanñhe (que en ñhañhu significa "Barranca Fresca"), lugar en el que se encuentra localizada la comunidad de Mojonera (hoy Villahermosa), unas plataformas hechas con troncos y sobre ellas una gran cantidad de piedras que pudieran soltarse en cualquier momento y producir una avalancha que hiciera efectos destructores, y en otras comunidades organizó, a revolucionarios voluntarios que puso al mando de hombres íntegros para hacer frente en forma unificada y disciplinada, a las fuerzas usurpadoras, terminados los preparativos de los pueblos comprometidos, quedaron esperando el momento de empezar a actuar en defensa de sus derechos; presentándose el día 10 de septiembre de 1913, como a las 11.00 hrs. en el lugar denominado Xhoñe ("lugar de donde se abren dos barrancas"), perteneciente al municipio de Cardonal, unas fuertes columnas de tropas federales avanzaban en dirección del pueblo de Santa María, por lo que inmediatamente se dio aviso a las fuerzas rebeldes para que se prepararan a repeler el ataque.</string>
+    <string name="th3">Al ver la importancia de la participación de este pueblo de Santa María, el General Nicolás Flores ordena que se le otorgue la categoría de Cabecera Municipal el 7 de noviembre de 1914, nombrando como primer Presidente Municipal el C. Carmen Donghú.</string>
+    <string name="tra1">2 de febrero Día de la candelaria</string>
+    <string name="splash">Bienvenido</string>
+    <string name="tra">Tradiciones</string>
+    <string name="tra2">10 de Septiembre Batalla del Xañhe</string>
+    <string name="tra3">12 de diciembre Virgen de la Ferrería</string>
+
+
+    <string name="gas">Gastronomía</string>
+    <string name="barca">Barbacoa de borrego</string>
+    <string name="barcaDes">La barbacoa del estado de Hidalgo es sin duda la mejor opción si quieres complacer a ese paladar exigente.</string>
+    <string name="ximbo">Ximbo</string>
+    <string name="ximboDes">El Ximbo proviene del Hñahñu que en español significa: Penca de Maguey.</string>
+    <string name="zacahuil">Zacahuil o Zacahuile</string>
+    <string name="zacahuilDes">Tuza en Canasta” en lengua náhuatl, procedente de la Huasteca Potosina, Hidalguense y Veracruzana. Es un tamal inmenso que a veces alcanza los 5 metros de largo.</string>
+    <string name="pulque">Pulque</string>
+    <string name="pulqueDes">Su término proviene del náhuatl poliuhqui o poliuhqui, que significa corromperse o destruirse.</string>
+    <string name="pastes">Pastes</string>
+    <string name="pastesDes">El paste es un alimento de la gastronomía del Estado de Hidalgo, introducido por los británicos.</string>
+    <string name="mole">Mole rojo</string>
+    <string name="moleDes">El término mole (del náhuatl molli o mulli) se refiere a varios tipos de salsas mexicanas hechas principalmente a base de chiles y especias, y que son espesadas con masa de maíz, con tortilla o en menor medida con bolillo, y también a los platillos con carne y vegetal preparados con estas salsas.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_geolocalizacion">Map</string>
+</resources>

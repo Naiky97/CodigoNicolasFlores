@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GastronomiaActivity"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="@string/gas"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:src="@drawable/vic"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/barca"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="cursive"
+                android:gravity="center_vertical|center"
+                android:text="@string/barcaDes"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@drawable/ximbo" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/ximboDes"
+                android:fontFamily="cursive"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:src="@drawable/zacahuil" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/zacahuil"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/zacahuilDes"
+                android:fontFamily="cursive"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"/>
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:src="@drawable/pulque" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/pulque"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/zacahuilDes"
+                android:fontFamily="cursive"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textColor="#ffffff"/>
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:src="@drawable/pastes" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/pastes"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/pastesDes"
+                android:fontFamily="cursive"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="220dp"
+                android:src="@drawable/mole" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/mole"
+                android:textSize="25dp"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center"
+                android:text="@string/moleDes"
+                android:fontFamily="cursive"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
